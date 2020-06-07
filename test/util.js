@@ -1,10 +1,10 @@
-var util = require('util');
-var expect = require('expect.js');
+import util from 'util';
+import expect from 'expect.js';
 
-exports.expect = expect;
+export {expect};
 
 // For Mocha
-exports.calls = function(num, fn) {
+export function calls(num, fn) {
   return function(done) {
     if (num === 0) done();
     var n = 0;
@@ -14,7 +14,7 @@ exports.calls = function(num, fn) {
   };
 };
 
-exports.inspect = function(value, depth, showHidden) {
+export function inspect(value, depth, showHidden) {
   if (depth == null) depth = null;
   if (showHidden == null) showHidden = true;
   console.log(util.inspect(value, {depth: depth, showHidden: showHidden}));

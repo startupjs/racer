@@ -1,5 +1,5 @@
-var expect = require('../util').expect;
-var racer = require('../../lib/index');
+import {expect} from '../util';
+import racer from '../../lib/index';
 
 describe('unbundle', function() {
   it('dedupes against existing queries', function(done) {

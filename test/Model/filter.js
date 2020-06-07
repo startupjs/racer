@@ -1,5 +1,5 @@
-var expect = require('../util').expect;
-var Model = require('../../lib/Model');
+import {expect} from '../util';
+import Model from '../../lib/Model';
 
 describe('filter', function() {
   describe('getting', function() {

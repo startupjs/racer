@@ -1,6 +1,6 @@
-var expect = require('../util').expect;
+import {expect} from '../util';
 
-module.exports = function(createDoc) {
+export default function(createDoc) {
   describe('get', function() {
     it('creates an undefined doc', function() {
       var doc = createDoc();

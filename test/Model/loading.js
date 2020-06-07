@@ -1,5 +1,5 @@
-var expect = require('../util').expect;
-var racer = require('../../lib/index');
+import {expect} from '../util';
+import racer from '../../lib/index';
 
 describe('loading', function() {
   beforeEach(function(done) {

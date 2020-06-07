@@ -1,6 +1,6 @@
-var expect = require('../util').expect;
-var racer = require('../../lib');
-var Model = require('../../lib/Model');
+import {expect} from '../util';
+import racer from '../../lib';
+import Model from '../../lib/Model';
 
 describe('query', function() {
   describe('sanitizeQuery', function() {

@@ -1,5 +1,5 @@
-var expect = require('../util').expect;
-var CollectionCounter = require('../../lib/Model/CollectionCounter');
+import {expect} from '../util';
+import CollectionCounter from '../../lib/Model/CollectionCounter';
 
 describe('CollectionCounter', function() {
   it('increment', function() {

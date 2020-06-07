@@ -1,5 +1,5 @@
-var expect = require('../util').expect;
-var racer = require('../../lib/index');
+import {expect} from '../util';
+import racer from '../../lib/index';
 
 describe('bundle', function() {
   it('does not serialize Share docs with null versions and null type', function(done) {
@@ -34,4 +34,3 @@ describe('bundle', function() {
     });
   });
 });
-

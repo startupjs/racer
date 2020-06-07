@@ -1,5 +1,5 @@
-var expect = require('../util').expect;
-var util = require('../../lib/util');
+import {expect} from '../util';
+import util from '../../lib/util';
 
 describe('util', function() {
   describe('util.mergeInto', function() {

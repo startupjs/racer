@@ -21,13 +21,17 @@ const CUSTOM_RULES = {
   // Google overrides the default ESLint behaviour here, which is slightly better for catching erroneously unused variables
   'no-unused-vars': ['error', {vars: 'all', args: 'after-used'}],
   'require-jsdoc': 'off',
-  'valid-jsdoc': 'off'
+  'valid-jsdoc': 'off',
+  'no-invalid-this': 'off'
 };
 
 module.exports = {
+  parser: 'babel-eslint',
+  root: true,
   extends: 'google',
   parserOptions: {
-    ecmaVersion: 3
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
   rules: Object.assign(
     {},

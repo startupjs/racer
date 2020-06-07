@@ -1,6 +1,6 @@
-var expect = require('../util').expect;
-var racer = require('../../lib/index');
-var docs = require('./docs');
+import {expect} from '../util';
+import racer from '../../lib/index';
+import docs from './docs';
 
 describe('RemoteDoc', function() {
   function createDoc() {
