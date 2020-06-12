@@ -1,7 +1,10 @@
 {
-  "name": "racer",
+  "name": "@startupjs/racer",
   "description": "Realtime model synchronization engine for Node.js",
   "homepage": "https://github.com/derbyjs/racer",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/derbyjs/racer.git"
